@@ -1,0 +1,67 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+}  
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 81, 50, 0.623);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 81, 50);
+}
+.spon-wrapper{
+    margin: 10px;
+    height: 230px;
+    background-color: #FFFFFF00;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spon-img{
+    width: 271px;
+    height: 112px;
+    padding: 20px;
+    border-radius: 30px;
+    opacity: 0.7;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px white;
+}
+
+@media screen and (min-width: 768px){
+    .spon-wrapper{
+        height:14vw;
+    }
+    .spon-img{
+        width: 14vw;
+    }
+}
+
+.sponsbg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.oursponsors{
+     background-repeat: no-repeat;
+     padding-left: 30px;
+     background-size: 350px auto;
+     margin-top: 120px;
+}
+
+.oursponsors h3{
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+

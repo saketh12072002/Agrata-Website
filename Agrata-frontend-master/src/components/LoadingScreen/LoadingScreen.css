@@ -1,0 +1,70 @@
+#load{
+    margin : 0;
+    width : 100%;
+    height : 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #000000bf;
+}
+
+body{
+    margin : 0;
+}
+
+.head {
+    color : #fff;
+    font-family: 'Raleway', sans-serif;
+    margin-right:7%;
+    margin-left: 7%;
+    font-size: 40px;
+    text-align: center;
+    bottom: 20%;
+}
+
+@media screen and (max-width: 660px) {
+    #logo {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 25vw;
+        top: 20%;
+        background-image: url("./loading_logo.png");
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 1200px) {
+    #logo {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 35vw;
+        top: 20%;
+        background-image: url("./loading_logo.png");
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #logo {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 40vw;
+        top: 20%;
+        background-image: url("./loading_logo.png");
+        background-size: contain;
+    }
+}
+
+#load_text {
+    margin : 0;
+    width : 100%; 
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}

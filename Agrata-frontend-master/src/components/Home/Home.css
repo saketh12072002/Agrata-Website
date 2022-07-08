@@ -1,0 +1,89 @@
+.logo-container{
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 320px;
+    left: 25%;
+    top: 20%;
+    background-color: #ffffffbf;
+    box-shadow: 30px 30px #000;
+}
+
+#home-logo{
+    position: relative;
+    top: 10%;
+    width: 230px;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 766px)  {
+    .side-text{
+        display: none;
+    }
+    #home-logo{
+        min-width: 30vw;
+    }
+    .logo-container{
+        margin-top: 90px;
+        min-width: 250px;
+        position: relative;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.side-text{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: right;
+    height: 40%;
+    width: 20%;
+    top: 40%;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 4%;
+}
+
+.contact-us{
+    position: absolute;
+    display: inline;
+    background-color: #FFFFFFBF;
+    color: #464646;
+    text-align: center;
+    border-style: none;
+    transform: skew(-15deg);
+    padding: 20px 0;
+    margin-left: 15vw;
+    font-size: 2.5vw;
+    height: 12%;
+    width: 25%;
+    top: 540px;
+    box-shadow: 20px 20px #000;
+}
+
+.about-us{
+    position: absolute;
+    display: inline;
+    background-color: #FFFFFFBF;
+    text-align: center;
+    color: #464646;
+    padding: 20px 0;
+    transform: skew(-15deg);
+    font-size: 2.5vw;
+    margin-right: 15vw;
+    height: 12%;
+    width: 25%;
+    top: 540px;
+    right: 0%;
+    box-shadow: 20px 20px #000;
+}

@@ -1,0 +1,65 @@
+#form {
+    font-family: sans-serif;
+    background-color: rgba(44, 40, 52, 0.2);
+    padding: 20px ;
+    max-width: 333px;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    border-radius: 4px;
+    transform: translate(-50%, 10%);
+    background-color: white;
+    
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+#head {
+    color: black;
+    text-align: center;
+}
+
+#buttonas {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(196, 196, 196);
+    
+   
+}
+/* #image {
+    margin: auto 25%;
+    width: 50%;
+    padding: 10px;
+    max-height: 175px;
+    max-width: 175px;
+} */
+.padd-input{
+    padding-right: 25px;
+
+}
+.padd-button{
+    padding-left: 14px;
+    padding-right: 9px;
+}
+.bg-register{
+    background-color: rgb(196, 196, 196);
+}
+button{
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: rgb(196, 196, 196);
+    
+}
+
+#pass-error{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
